@@ -48,10 +48,6 @@ li {
   padding-right: 50px;
 }
 
-h2 {
-  line-height: 5px;
-}
-
 img:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
