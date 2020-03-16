@@ -13,12 +13,22 @@ img {
   object-fit: cover;
 }
 
-ul {
+table {
   list-style-type: none;
+  padding-bottom: 15px;
+  margin: auto;
 }
 
-li {
-  display: inline;
+td {
+  padding: 15px;
+  border-radius: 200px;
+  box-shadow: hsla(0, 0%, 0%, .9) 10px 10px 10px;
+  background-color: hsla(0, 100%, 20%, 0.2);
+}
+
+td:hover {
+  background-color: khaki;
+  transition: background-color 1s;
 }
 
 #frame {
